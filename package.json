@@ -1,0 +1,13 @@
+{
+  "name": "climaya-cli",
+  "version": "1.0.0",
+  "license": "MIT",
+  "bin": {
+    "climaya": "bin/climaya"
+  },
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
