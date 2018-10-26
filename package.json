@@ -1,6 +1,6 @@
 {
   "name": "climaya-cli",
-  "version": "1.0.0",
+  "version": "1.7.0",
   "license": "MIT",
   "bin": {
     "climaya": "bin/climaya"
