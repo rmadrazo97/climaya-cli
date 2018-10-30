@@ -2,7 +2,7 @@
 ## Features
 
 - Envia reportes del Clima al Whatsapp del usuario. 
- - Actualmente solo lo envía desde el telf. registrado de Twillo. Pues el tiempo de aprovación de cuenta de desarrollador en Whatsapp toma tiempo. 
+ - Actualmente solo lo envía desde el telf. registrado de Twillo. Pues el tiempo de aprobación de cuenta de desarrollador en Whatsapp toma tiempo. 
 - Reportes de: 
  - tiempo actual de la cuidad seleccionada
  - pronostico a días en el futuro de la cuidad seleccionada. 
