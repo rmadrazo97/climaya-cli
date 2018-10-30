@@ -1,6 +1,6 @@
 {
   "name": "climaya-cli",
-  "version": "1.7.0",
+  "version": "1.9.9.7",
   "license": "MIT",
   "bin": {
     "climaya": "bin/climaya"
@@ -8,6 +8,10 @@
   "scripts": {},
   "devDependencies": {},
   "dependencies": {
-    "minimist": "^1.2.0"
+    "axios": "^0.18.0",
+    "json-stringify-safe": "^5.0.1",
+    "minimist": "^1.2.0",
+    "ora": "^3.0.0",
+    "twilio": "^3.23.2"
   }
 }

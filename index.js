@@ -1,5 +1,5 @@
 const minimist = require('minimist')
-
+const error = require('./utils/error')
 module.exports = () => {
   const args = minimist(process.argv.slice(2))
   //defining cmd "command"
@@ -23,14 +23,23 @@ module.exports = () => {
         require('./cmds/version')(args)
         break
 
-    case 'today':
+    case 'tiempo':
         require('./cmds/today')(args)
+        break
+    case 'pronostico':
+        require('./cmds/pronostico')(args)
+        break
+    case 'altura':
+        require('./cmds/altura')(args)
         break
 
     default:
-        console.error(`"${cmd}" is not a valid command!`)
+        error(`"${cmd}" no es un comando valido!`);
+        break;
   }
   console.log('---.---.---.---.---')
   console.log(args);
-  console.log(cmd)
+  console.log('cmd:');
+  console.log(cmd);
+  console.log('---.---.---.---.---')
 }
