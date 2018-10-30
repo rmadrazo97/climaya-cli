@@ -1,6 +1,5 @@
-# climaya-cli
-
-## Features
+#climaya-cli
+##Features
 
 - Envia reportes del Clima al Whatsapp del usuario. 
  - Actualmente solo lo envía desde el telf. registrado de Twillo. Pues el tiempo de aprovación de cuenta de desarrollador en Whatsapp toma tiempo. 
@@ -20,12 +19,12 @@
       manana             ...... Muestra un resumen relevante del dia siguiente a la consulta.
       manana-noche  ...... Muestra un resumen relevante de la noche del dia siguiente a la consulta.
 
-## Lista de Argumentos:
+##Lista de Argumentos:
      --ubicacion, --u    <<Especifica la cuidad de la consulta.>>
 	 --whatsapp, -wp   <<Opcion para enviar por whatsapp: true o false>>
 	 --dias, --d       <<Dias para el pronostico>>
 
-## Cuidades Disponibles
+##Cuidades Disponibles
 | #  | Cuidad  | Alterno   |
 | ------------ | ------------ | ------------ |
 | 1  |  Cuidad de Guatemala | Guatemala/Guate  |
@@ -44,16 +43,30 @@
 
 ## Ejemplos de Uso:
 ------------
-Instalación
-`npm install climaya-cli
-`
+Instalación (global para crear como variable de entorno)
+`npm install --global climaya-cli`
 
-###Developer
+Tiempo: Mostrando el tiempo actual en Guatemala y mandandolo por Whatsapp
+    `climaya tiempo --u "Guatemala" --wp true`
+	
+Pronostico: Mostrando un pronostico de Peten para dos días despues. Mandandolo por whatsapp
+`climaya pronostico --u "Peten" --d 2 --wp true`
 
-Alejandro Madrazo
+Altura: Solicitando la altura de Retalhuleu pero, sin mandarlo por Whatsapp.
+`climaya altura --ubicacion "Retalhuleu" --whatsapp false`
+
+Completo: Solicitando un reporte completo de Xela/Quetzaltenango y mandandolo por Whatsapp.
+`climaya completo --ubicacion "Xela" -wp true`
+ .... De igual manera para el resto de comandos. :)
+### Developer
+
+## Alejandro Madrazo
+
 Whatsapp: +502 35230129
+
 Gmail: jmadrazo7@gmail.com
+
 Instagram: @ja.madrazo
 
 
-###End
+### End
