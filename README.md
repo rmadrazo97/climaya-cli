@@ -1,5 +1,5 @@
-#climaya-cli
-##Features
+# climaya-cli
+## Features
 
 - Envia reportes del Clima al Whatsapp del usuario. 
  - Actualmente solo lo envía desde el telf. registrado de Twillo. Pues el tiempo de aprovación de cuenta de desarrollador en Whatsapp toma tiempo. 
@@ -19,12 +19,12 @@
       manana             ...... Muestra un resumen relevante del dia siguiente a la consulta.
       manana-noche  ...... Muestra un resumen relevante de la noche del dia siguiente a la consulta.
 
-##Lista de Argumentos:
+## Lista de Argumentos:
      --ubicacion, --u    <<Especifica la cuidad de la consulta.>>
 	 --whatsapp, -wp   <<Opcion para enviar por whatsapp: true o false>>
 	 --dias, --d       <<Dias para el pronostico>>
 
-##Cuidades Disponibles
+## Cuidades Disponibles
 | #  | Cuidad  | Alterno   |
 | ------------ | ------------ | ------------ |
 | 1  |  Cuidad de Guatemala | Guatemala/Guate  |
