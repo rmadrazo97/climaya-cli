@@ -1,6 +1,6 @@
 {
   "name": "climaya-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CLI app that provides weather forecast and reports from private owned weather stations located in Guatemala and Central America",
   "license": "MIT",
   "homepage": "https://github.com/rmadrazo97/climaya-cli#readme",
