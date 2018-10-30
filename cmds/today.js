@@ -10,7 +10,7 @@ module.exports = async (args) => {
     const weather = await getWeather(location)
     spinner.stop()
 
-    var mensaje = `Tiempo actual de ${location}: ${weather[0].fortxt0}`;
+    var mensaje = `Tiempo actual de ${location}: ${weather[0].fortxt0}| Temperatura Actual:${weather[0].temp} | Sensación Térmica:${weather[0].feelslike} | Humedad:${weather[0].humidity}%`;
     if (wp){
     //--Whatsapp---
     const accountSid = 'ACfe2c5a39fe0692a73e4bf720d35b6c4f';

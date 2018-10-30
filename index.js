@@ -32,14 +32,21 @@ module.exports = () => {
     case 'altura':
         require('./cmds/altura')(args)
         break
-
+    case 'completo':
+        require('./cmds/completo')(args)
+        break
+    case 'noche':
+        require('./cmds/noche')(args)
+        break
+    case 'manana':
+        require('./cmds/manana')(args)
+        break
+    case 'manana_noche':
+        require('./cmds/manana_noche')(args)
+        break
     default:
         error(`"${cmd}" no es un comando valido!`);
         break;
   }
-  console.log('---.---.---.---.---')
-  console.log(args);
-  console.log('cmd:');
-  console.log(cmd);
-  console.log('---.---.---.---.---')
+
 }
